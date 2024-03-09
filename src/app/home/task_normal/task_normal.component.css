@@ -1,13 +1,14 @@
 .column {
   display: flex;
   flex-direction: column;
+  margin-top: 2rem;
 }
 .row {
   display: flex;
   flex-direction: row;
 }
 article {
-  width: 42%;
+  width: 40%;
   height: 15rem;
   padding: 2rem;
   margin: auto;
@@ -17,10 +18,12 @@ article {
 }
 article:hover {
   transform: scale(1.02);
+  box-shadow: 1px 1px 2rem #fff;
+  cursor: pointer;
 }
 hr {
   padding: 0.5rem;
-  border: none;
+  border:none;
 }
 h2 {
   position: absolute;
