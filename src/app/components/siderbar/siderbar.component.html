@@ -1,0 +1,35 @@
+<nav>
+  <ul>
+    <li>
+      <h4 *ngFor="let menu of menus">{{ menu.title }}</h4>
+    </li>
+  </ul>
+</nav>
+<nav>
+  <ul>
+    <li>
+      <h5>Habits</h5>
+      <div *ngFor="let habit of habits" class="counter_habit">
+        <img
+          loading="lazy"
+          [src]="habit.icon"
+          [alt]="habit.icon"
+          class="img_habit"
+          (click)="aumentCounterHabit(habit)"
+        />
+        <p>
+          {{ habit.counter }}
+        </p>
+      </div>
+      <div class="counter_habit">
+        <img
+          src="/assets/img/Habits_add.png"
+          alt="habit.icon"
+          class="img_habit"
+          (click)="addHabit()"
+        />
+        <p>Add</p>
+      </div>
+    </li>
+  </ul>
+</nav>
