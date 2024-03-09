@@ -1,0 +1,40 @@
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+article {
+  width: 42%;
+  height: 15rem;
+  padding: 2rem;
+  margin: auto;
+  border-radius: 1rem;
+  transition: all 0.5rem;
+  background-color: rgba(41, 40, 40, 1);
+}
+article:hover {
+  transform: scale(1.02);
+}
+hr {
+  padding: 0.5rem;
+  border: none;
+}
+h2 {
+  position: absolute;
+  width: 60%;
+  text-align: center;
+  padding: 1rem;
+  top: 1rem;
+  margin: 0;
+  padding: 0;
+}
+h4 {
+  border: none;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  margin-top: 4rem;
+}
