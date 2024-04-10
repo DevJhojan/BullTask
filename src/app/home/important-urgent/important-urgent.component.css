@@ -1,0 +1,27 @@
+main{
+  width: 95%;
+  height: 38rem;
+  background-color: red;
+  border-radius: 1rem;
+  padding: 1rem;
+  overflow: hidden scroll;
+  scrollbar-width: none;
+}
+.button_title{
+  width: 55%;
+  height: 2rem;
+  margin-bottom: 0.5rem;
+  margin-top: 2rem;
+  border: none;
+  background-color: red;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.5ms;
+}
+.button_title:hover{
+  box-shadow: 1px 1px 5px;
+}
+.task{
+  padding: 1rem;
+  align-items: last baseline;
+}

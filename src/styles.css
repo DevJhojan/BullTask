@@ -9,9 +9,10 @@
   text-align: center;
   color: var(--text-color);
   background-color: var(--background-color);
+  scrollbar-width: none;
 }
 app-home{
-  width: 60%;
+  width: 55%;
   display: flex;
   padding: 1rem;
   flex-direction: column;

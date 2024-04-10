@@ -26,7 +26,7 @@ export class SiderbarComponent implements OnInit {
       link: '/Tasks',
     },
     {
-      title: 'Constant task',
+      title: 'Processes',
       link: '/Constant_Task',
     },
   ];
