@@ -4,6 +4,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SiderbarComponent } from './components/siderbar/siderbar.component';
 import { TimeBombComponent } from './components/TimeBomb/TimeBomb.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { TimeBombComponent } from './components/TimeBomb/TimeBomb.component';
     BrowserModule,
     AppRoutingModule,
     SiderbarComponent,
-    TimeBombComponent
+    TimeBombComponent,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

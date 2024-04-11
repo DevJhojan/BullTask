@@ -55,3 +55,6 @@ h2:hover,h3:hover,h4:hover,h5:hover,h6:hover{
   flex-wrap: wrap;
   flex-direction: row;
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

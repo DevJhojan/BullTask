@@ -8,6 +8,7 @@ import { ImportantUrgentComponent } from './important-urgent/important-urgent.co
 import { ImportantNoUrgentComponent } from './important-no-urgent/important-no-urgent.component';
 import { NoImportantUrgentComponent } from './no-important-urgent/no-important-urgent.component';
 import { NoImportantNoUrgentComponent } from './no-important-no-urgent/no-important-no-urgent.component';
+import { SharedModule } from '@shared/shared.module';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { NoImportantNoUrgentComponent } from './no-important-no-urgent/no-import
   ],
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    SharedModule
   ]
 })
 export class HomeModule { }

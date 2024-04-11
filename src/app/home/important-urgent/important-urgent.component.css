@@ -12,7 +12,6 @@ main{
   height: 2rem;
   margin-bottom: 0.5rem;
   margin-top: 2rem;
-  border: none;
   background-color: red;
   border-radius: 1rem;
   cursor: pointer;
@@ -22,7 +21,7 @@ main{
   box-shadow: 1px 1px 5px;
 }
 .task{
-  width: 45%;
+  width: 48%;
   height: 3rem;
   padding: 1rem;
   align-items: last baseline;
@@ -41,11 +40,12 @@ main{
 }
 .name_task{
   font-size: 1.5rem;
-  margin-right: 1rem;
+  margin-right: 0.5rem;
 }
 .editar{
   width: 3rem;
   height: 3rem;
+  border-radius: 1rem;
 }
 textarea{
   width: 80%;
