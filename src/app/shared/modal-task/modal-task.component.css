@@ -1,0 +1,11 @@
+.column{
+  display: flex;
+  flex-direction: column;
+}
+.form-modal{
+  width: 90%;
+  height: 90%;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+}

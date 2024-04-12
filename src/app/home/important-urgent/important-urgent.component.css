@@ -22,7 +22,7 @@ main{
 }
 .task{
   width: 48%;
-  height: 3rem;
+  height: 5rem;
   padding: 1rem;
   align-items: last baseline;
   border-radius: 1rem;
@@ -39,7 +39,7 @@ main{
   background-color: red;
 }
 .name_task{
-  font-size: 1.5rem;
+  font-size: 150%;
   margin-right: 0.5rem;
 }
 .editar{

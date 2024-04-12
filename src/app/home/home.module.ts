@@ -9,6 +9,7 @@ import { ImportantNoUrgentComponent } from './important-no-urgent/important-no-u
 import { NoImportantUrgentComponent } from './no-important-urgent/no-important-urgent.component';
 import { NoImportantNoUrgentComponent } from './no-important-no-urgent/no-important-no-urgent.component';
 import { SharedModule } from '@shared/shared.module';
+import { MatDialogModule } from '@angular/material/dialog';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { SharedModule } from '@shared/shared.module';
   imports: [
     CommonModule,
     HomeRoutingModule,
-    SharedModule
+    SharedModule,
+    MatDialogModule,
   ]
 })
 export class HomeModule { }
